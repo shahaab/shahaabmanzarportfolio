@@ -82,6 +82,12 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border-radius: 4px;
 `
+export const TextField = styled.input`
+  padding: 16px 16px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  resize: vertical;
+`
 export const FormButton = styled.button`
   background: #01bf71;
   padding: 16px 0;

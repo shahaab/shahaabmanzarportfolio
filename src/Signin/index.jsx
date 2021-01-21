@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, FormWrap, Icon, FormContent, Form, FormInput, FormH1, FormLabel, FormButton, Text } from './SigninElements'
+import { Container, FormWrap, Icon, FormContent, Form, FormInput, FormH1, FormLabel, FormButton, TextField } from './SigninElements'
+
 
 const SignIn = () => {
   return (
@@ -9,12 +10,13 @@ const SignIn = () => {
           <Icon to='/'>MANZAR</Icon>
           <FormContent>
             <Form action='#'>
-              <FormH1>Sign Up to My Newsletter!</FormH1>
+              <FormH1>Lets Collab!</FormH1>
               <FormLabel htmlFor='for'>Name</FormLabel>
               <FormInput htmlFor='name' required />
-              <FormLabel htmlFor='for'>Email</FormLabel>
-              <FormInput htmlFor='email' required />
-              <FormButton type='submit'>Sign Me Up!</FormButton>
+              <FormLabel htmlFor='for'>Message</FormLabel>
+              {/* textfield isnt working */}
+              <TextField label='Multiline' multiline rows={3} />
+              <FormButton type='submit'>Submit</FormButton>
             </Form>
           </FormContent>
         </FormWrap>
