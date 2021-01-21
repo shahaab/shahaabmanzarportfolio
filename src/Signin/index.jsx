@@ -10,13 +10,13 @@ const SignIn = () => {
           <Icon to='/'>MANZAR</Icon>
           <FormContent>
             <Form action='#'>
-              <FormH1>Lets Collab!</FormH1>
+              <FormH1>Let's Collab!</FormH1>
               <FormLabel htmlFor='for'>Name</FormLabel>
               <FormInput htmlFor='name' required />
               <FormLabel htmlFor='for'>Message</FormLabel>
               {/* textfield isnt working */}
               <TextField label='Multiline' multiline rows={3} />
-              <FormButton type='submit'>Submit</FormButton>
+              <FormButton type='submit'>Let's Go</FormButton>
             </Form>
           </FormContent>
         </FormWrap>
