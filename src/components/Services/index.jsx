@@ -12,7 +12,7 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Icon1} />
           <ServicesH2>Newsletter</ServicesH2>
-          <ServicesP>MongoDB and Node.js deployed on heroku</ServicesP>
+          <ServicesP>MongoDB and Node.js deployed on Heroku</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
