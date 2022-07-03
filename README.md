@@ -1,4 +1,5 @@
-# portfolio url https://shahaab-manzar-portfolio.netlify.app/
-# to run locally
-npm install
-this will install all the dependencies
+# Portfolio url https://shahaab-manzar-portfolio.netlify.app/
+# to run locally 
+- Download the files 
+- npm install
+To install all the dependencies
